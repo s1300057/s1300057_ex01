@@ -19,10 +19,10 @@ public class DiceGame{
         System.out.println("Die 2: "+num2);
         System.out.println("Total value: "+sum);
         if(sum>7){
-            System.out.println(name+" won");
+            System.out.println(name +" won");
         }
         else{
-            System.out.println(name+" lost");
+            System.out.println(name +" lost");
         }
     }
 }
