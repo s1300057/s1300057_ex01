@@ -1,9 +1,14 @@
 package DM;
 import java.util.Random;
+import java.util.Scanner;
 
 public class DiceGame{
     public static void main(String[] args){
         Random rnd = new Random();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is your name?");
+        String name = sc.nextLine();
+        System.out.println("Hello, "+name+"!");
 
         int num1 = rnd.nextInt(6)+1;
         int num2 = rnd.nextInt(6)+1;
